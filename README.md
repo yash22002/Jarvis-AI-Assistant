@@ -27,6 +27,4 @@ Jarvis is a simple yet powerful voice assistant created in Python. It runs entir
 ## 🚀 How to Run
 
 1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-
+   Simple run on terminal
