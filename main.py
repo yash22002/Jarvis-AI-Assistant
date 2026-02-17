@@ -133,7 +133,7 @@ while True:
         pyautogui.hotkey('ctrl', 'c')
         time.sleep(0.5)
         clipboard_content = pyperclip.paste()
-        print("✅ Copied:", clipboard_content)
+        print("Copied:", clipboard_content)
         speak("Text copied to clipboard")
 
     # Paste Command
@@ -147,3 +147,4 @@ while True:
     # Fallback
     elif query:
         speak("I'm not sure how to respond to that yet, sir.")
+
